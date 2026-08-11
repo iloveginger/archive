@@ -1,0 +1,55 @@
+baseURL = "https://shreyanshpokharel.com.np"
+locale = "en-us"
+title = "Sherey Ko Archive"
+theme = "nightfall"
+
+[markup]
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[pagination]
+pagerSize = 3
+
+[menu]
+[[menu.header]]
+name = "blog"
+weight = 0
+url = "blog"
+
+[[menu.header]]
+name = "about"
+weight = 1
+url = "about"
+
+[params]
+user = "Sherey"
+hostname = "localhost:1313"
+
+openLinksInNewTab = true
+
+displayDateFormat = "2006-01-02"
+
+showMetadata = true
+showPublishedDate = true
+showReadingTime = true
+showTags = true
+showAuthors = true
+showCategories = true
+
+[params.author]
+name = "Sherey"
+email = ""
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/iloveginger"
+target = "_blank"
+aria = "GitHub Profile" 
+
+[[params.social]]
+key = 1
+name = "email"
+url = "mailto:shreyansh.pokharel@gmail.com"
+aria = "My e-Mail Address"
