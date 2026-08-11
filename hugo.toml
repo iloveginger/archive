@@ -24,7 +24,7 @@ url = "about"
 
 [params]
 user = "Sherey"
-hostname = "localhost:1313"
+hostname = ""
 
 openLinksInNewTab = true
 
