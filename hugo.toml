@@ -24,7 +24,7 @@ url = "about"
 
 [params]
 user = "Sherey"
-hostname = ""
+hostname = "archive"
 
 openLinksInNewTab = true
 
